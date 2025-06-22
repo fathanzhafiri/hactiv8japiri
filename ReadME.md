@@ -4,7 +4,7 @@ Kebijakan kontroversial yang diusulkan oleh salah satu tokoh publik di Jawa Bara
 
 Data dikumpulkan dari Twitter dengan menggunakan berbagai kata kunci relevan seperti “nakal barak”, “bermasalah barak”, “pelajar barak”, dan penyebutan langsung terhadap akun tokoh yang terlibat (@DediMulyadi71), dengan rentang waktu dari 27 April hingga 27 Mei 2025\. Seluruh tweet kemudian digabungkan dan dibersihkan dari duplikat untuk dianalisis lebih lanjut.
 
-Melalui pendekatan analisis sentimen berbasis kecerdasan buatan (menggunakan LLM IBM Granite), proyek ini menggali insight mengenai sentimen masyarakat (positif, netral, negatif), serta subkategori opini yang muncul seperti persetujuan terhadap kebijakan, ujaran kebencian, dan harapan publik. Analisis ini ditujukan untuk membantu pengambilan keputusan berbasis data oleh pembuat kebijakan, akademisi, maupun masyarakat luas dalam memahami respons publik secara lebih objektif dan menyeluruh.
+Melalui pendekatan analisis sentimen berbasis kecerdasan buatan (menggunakan LLM IBM Granite dan indoBERT model dari HuggingFace), proyek ini menggali insight mengenai sentimen masyarakat (positif, netral, negatif), serta subkategori opini yang muncul seperti persetujuan terhadap kebijakan, ujaran kebencian, dan harapan publik. Analisis ini ditujukan untuk membantu pengambilan keputusan berbasis data oleh pembuat kebijakan, akademisi, maupun masyarakat luas dalam memahami respons publik secara lebih objektif dan menyeluruh.
 
 ## **🔍 Analysis Process**
 
@@ -16,6 +16,9 @@ Proyek ini dilakukan melalui tahapan analisis data yang runtut dan berbasis meto
 
 Data diambil menggunakan *tweet-harvest*, dengan kata kunci relevan seperti `nakal barak`, `siswa barak`, `pelajar barak`, dan `@DediMulyadi71 barak`, dalam rentang 27 April – 27 Mei 2025\. Crawling dilakukan dalam Bahasa Indonesia dengan limit tweet yang disesuaikan untuk menjaga representativitas.
 
+Hasil crawling Twitter/X sudah diupload pada gdrive berikut:
+bit.ly/3G9A5nA
+
 ---
 
 ### **2\. Data Cleaning & Preprocessing**
@@ -26,11 +29,11 @@ Setelah data digabungkan, dilakukan pembersihan dan normalisasi, termasuk:
 
 * Lowercasing
 
-* Normalisasi slang (menggunakan kamus bahasa gaul)
+* Normalisasi slang (menggunakan kamus bahasa gaul Indonesia)
 
 * Stopword removal dan stemming dengan **Sastrawi**
 
-Langkah ini memastikan data yang masuk ke model AI dalam kondisi bersih dan terstruktur.
+Langkah ini memastikan data yang masuk ke model AI dalam kondisi lebih bersih dan terstruktur.
 
 ---
 
