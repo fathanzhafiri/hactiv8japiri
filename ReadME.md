@@ -1,3 +1,5 @@
+# Barak Militer untuk Siswa Bermasalah di Jawa Barat: Analisis Opini Publik di Twitter Menggunakan IBM Granite dan AI
+
 ## **📌 Project Overview**
 
 Kebijakan kontroversial yang diusulkan oleh salah satu tokoh publik di Jawa Barat mengenai pengiriman siswa bermasalah ke barak militer telah memicu perdebatan luas di media sosial, khususnya Twitter. Proyek ini bertujuan untuk memahami persepsi dan opini publik terhadap kebijakan tersebut dengan menganalisis komentar masyarakat yang dipublikasikan secara daring.
